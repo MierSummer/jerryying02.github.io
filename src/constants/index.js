@@ -204,9 +204,9 @@ const testimonials = [
   {
     testimonial:
       "For the future employer",
-    name: "Upcoming!",
-    designation: "N/A",
-    company: "N/A",
+    name: "Simon Loh",
+    designation: "Dean School Of Computing",
+    company: "",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
