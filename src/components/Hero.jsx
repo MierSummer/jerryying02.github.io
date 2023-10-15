@@ -8,7 +8,7 @@ import { textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
 import Sidebar from "./Sidebar"; // Import the Sidebar component
 
-
+import { workvideo1 } from "../assets";
 
 const Hero = () => {
   const [typedText, setTypedText] = useState("");
@@ -66,7 +66,7 @@ const Hero = () => {
   loop
   muted
 >
-  <source src="src/assets/workvideo1.png" type="video/mp4" />
+  <source src={workvideo1} type="video/mp4" />
   Your browser does not support the video tag.
 </video>
       <div
