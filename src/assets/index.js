@@ -43,6 +43,7 @@ import socialhut from "./socialhut.jpeg"
 import portfoliowebsite from "./portfoliowebsite.png"
 import cryptobot from "./cryptobot.png"
 import upcoming from "./upcoming.png"
+import workvideo1 from "./workvideo1.mp4"
 export {
   logo,
   backend,
@@ -84,6 +85,7 @@ export {
   socialhut,
   portfoliowebsite,
   cryptobot,
-  upcoming
+  upcoming,
+  workvideo1
   
 };

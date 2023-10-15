@@ -7,7 +7,7 @@ import { ComputersCanvas, StarsCanvas } from "./canvas";
 import { textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
 import Sidebar from "./Sidebar"; // Import the Sidebar component
-
+import { workvideo1 } from "../assets";
 
 
 const Hero = () => {
