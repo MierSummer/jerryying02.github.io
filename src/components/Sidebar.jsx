@@ -58,7 +58,7 @@ const Sidebar = () => {
         <AiFillGithub />
       </motion.a>
       <motion.a
-        href="https://drive.google.com/file/d/1WTHXR5S5ot1nvUQp48yj6QUAD73TscVq/view?usp=drive_link"
+        href="https://drive.google.com/file/d/1crABGpOfK5dzhpcqZ_Z_gdCwvOLHj8wu/view?usp=drive_link"
         target="_blank"
         rel="noopener noreferrer"
         whileHover={{ scale: 1.1, x: -10 }}

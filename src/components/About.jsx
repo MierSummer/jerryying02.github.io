@@ -58,7 +58,7 @@ const About = () => {
       </motion.p>
 
       <div className='flex flex-col items-center mt-7 mb-5'>
-          <a href='https://drive.google.com/file/d/1WTHXR5S5ot1nvUQp48yj6QUAD73TscVq/view?usp=drive_link' download>
+          <a href='https://drive.google.com/file/d/1crABGpOfK5dzhpcqZ_Z_gdCwvOLHj8wu/view?usp=drive_link' download>
           <button class="bg-green-300 hover:bg-green-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
             <svg class="fill-current w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
             <span>My Resume</span>
