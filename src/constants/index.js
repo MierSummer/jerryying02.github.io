@@ -133,6 +133,7 @@ const technologies = [
 const experiences = [
   {
     title: "Certifications",
+    company_name: "Obtained",
     icon: starbucks,
     iconBg: "#383E56",
     points: [      
