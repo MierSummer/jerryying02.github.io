@@ -378,19 +378,15 @@ const projects = [
   {
     name: "CryptoCurrency Bot ",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "C++ bot that uses simple moving average to predict the price of cryptocurrency from csv data",
     tags: [
       {
-        name: "p5.js",
+        name: "C++",
         color: "blue-text-gradient",
       },
       {
-        name: "javascript",
+        name: "simpleMovingAverage",
         color: "green-text-gradient",
-      },
-      {
-        name: "myfirstproject",
-        color: "pink-text-gradient",
       },
     ],
     image: cryptobot,
@@ -400,7 +396,7 @@ const projects = [
   {
     name: "Pixel mini-game ",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Mario like mini-game built with p5.js,involve using constructors and classes in javascript",
     tags: [
       {
         name: "p5.js",
