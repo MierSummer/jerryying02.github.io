@@ -235,9 +235,9 @@ const projects = [
     eye_link:"https://malaysian-deli-ecommerce.vercel.app/",
   },
   {
-    name: "MyBlog",
+    name: "Wripts",
     description:
-      "CRUD blogging app extended with summernote WYSIWYG editor with custom search functionalities",
+      "CRUD blogging app extended with summernote WYSIWYG editor with custom search functionalities,Weather & News API",
     tags: [
       {
         name: "nodejs,express",
@@ -257,8 +257,8 @@ const projects = [
       },
     ],
     image: myblog,
-    source_code_link: "https://github.com/JERRYYING02/MyBlog1",
-    eye_link:"https://github.com/JERRYYING02/MyBlog1",
+    source_code_link: "https://github.com/JERRYYING02/dnw-gs-mini-project",
+    eye_link:"https://mini-project-jerry.onrender.com/",
   },
   {
     name: "Social Hut",
