@@ -132,19 +132,17 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Service & Sales Manager",
-    company_name: "Yuan Yuan Sheng",
+    title: "Certifications",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2022 - March 2023",
-    points: [
-      "Implement and maintain record payments system using loyverse POS.",
-      "Integrate food delivery app with restaurant.",
-      "Collect and review constructive feedback from customers.",
+    points: [      
+      "Accenture - Data Analytics and Visualization Virtual Experience Certificate    ",
+      "Alibaba Group – Apsara Cloud Generative AI Certificate",
+      "IBM – Intro DevOps",
     ],
   },
   {
-    title: "Marketing & Digital IT Assistant",
+    title: "Web Developer",
     company_name: "Crescendo International College",
     icon: tesla,
     iconBg: "#E6DEDD",
@@ -203,9 +201,9 @@ const testimonials = [
   },
   {
     testimonial:
-      "For the future employer",
+      "He has always been eager to learn more and to explore new technologies and methodologies,taking initiative to read and research on his own, which is a clear indication of their passion for the field. ",
     name: "Simon Loh",
-    designation: "Dean School Of Computing",
+    designation: "Dean School Of Computing Crescendo International College",
     company: "",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
