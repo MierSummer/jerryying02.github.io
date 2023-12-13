@@ -212,6 +212,28 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Whizzit",
+    description:
+      "",
+    tags: [
+      {
+        name: "Stripe",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "sanity.io",
+        color: "green-text-gradient",
+      },
+      {
+        name: "NextJS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: malaysiandeli,
+    source_code_link: "https://github.com/JERRYYING02/malaysian-deli-ecommerce",
+    eye_link:"https://malaysian-deli-ecommerce.vercel.app/",
+  },
+  {
     name: "Malaysian Deli",
     description:
       "Self-funded e-commerce buisiness that markets Malaysian food & drinks ingredients, integrated Stripe Payment,sellers seamlessly update their products on sanityCMS",
