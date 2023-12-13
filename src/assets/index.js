@@ -36,7 +36,7 @@ import myblog from "./myblog.png";
 import resumeIcon from "./resume.jpg";
 import githubIcon from "./githubicon.png";
 import linkedinIcon from "./linkedin.png";
-
+import whizzit from "./whizzit.png"
 import malaysiandeli from "./malaysiandeli.png"
 import plantdcs from "./plantdcs.png"
 import socialhut from "./socialhut.jpeg"
@@ -62,6 +62,7 @@ export {
   javascript,
   mongodb,
   nodejs,
+  whizzit,
   reactjs,
   redux,
   tailwind,

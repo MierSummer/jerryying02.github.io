@@ -32,7 +32,8 @@ import {
   socialhut,
   portfoliowebsite,
   cryptobot,
-  upcoming
+  upcoming,
+  whizzit
 } from "../assets";
 
 export const navLinks = [
@@ -214,24 +215,29 @@ const projects = [
   {
     name: "Whizzit",
     description:
-      "",
+      "Final-year dissertation, an e-learning LMS powered with AI-prompted quiz generation",
     tags: [
       {
-        name: "Stripe",
+        name: "Typescript",
         color: "blue-text-gradient",
       },
       {
-        name: "sanity.io",
+        name: "NextJS",
         color: "green-text-gradient",
       },
       {
-        name: "NextJS",
+        name: "ShadCN",
         color: "pink-text-gradient",
       },
+      {
+        name: "OpenAI",
+        color: "yellow-text-gradient",
+      },
+      
     ],
-    image: malaysiandeli,
-    source_code_link: "https://github.com/JERRYYING02/malaysian-deli-ecommerce",
-    eye_link:"https://malaysian-deli-ecommerce.vercel.app/",
+    image: whizzit,
+    source_code_link: "https://github.com/JERRYYING02/lms-fyp",
+    eye_link:"https://github.com/JERRYYING02/lms-fyp/",
   },
   {
     name: "Malaysian Deli",
