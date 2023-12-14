@@ -16,7 +16,7 @@ const Hero = () => {
   const [typedText3, setTypedText3] = useState("");
   const [currentIndex, setCurrentIndex] = useState(0);
   const [currentIndex2, setCurrentIndex2] = useState(0);
-  const originalText = "           I develop full-stack , AI and data projects. Final year student @ Goldsmiths, University Of London";
+  const originalText = "                          I develop full-stack , AI and data projects. Final year student @ Goldsmiths, University Of London";
   const originalText2 = "Let me solve your problems";
   const typingSpeed = 20;
   const fadeInDelay = 4000; // Delay in milliseconds before fading in the button
@@ -100,7 +100,6 @@ const Hero = () => {
             
           </p>
 
-          
           {buttonVisible && (
   <motion.a
     initial={{ opacity: 0 }}
