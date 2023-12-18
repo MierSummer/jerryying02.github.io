@@ -8,7 +8,7 @@ import { textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
 import Sidebar from "./Sidebar"; // Import the Sidebar component
 
-import { workvideo1 } from "../assets";
+// import { workvideo1 } from "../assets";
 
 const Hero = () => {
   const [typedText, setTypedText] = useState("");
@@ -60,7 +60,7 @@ const Hero = () => {
     
     <div className={`relative w-full h-screen mx-auto`}>
 
-<video
+{/* <video
   className="absolute top right-0 object-cover w-1/3 h-1/4 mt-20 rounded-lg" // Add 'rounded-lg' class here
   autoPlay
   loop
@@ -68,7 +68,7 @@ const Hero = () => {
 >
   <source src={workvideo1} type="video/mp4" />
   Your browser does not support the video tag.
-</video>
+</video> */}
       <div
         className={`absolute inset-0 top-[100px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-4`}
       >
