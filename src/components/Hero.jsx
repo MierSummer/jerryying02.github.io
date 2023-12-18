@@ -8,7 +8,7 @@ import { textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
 import Sidebar from "./Sidebar"; // Import the Sidebar component
 
-// import { workvideo1 } from "../assets";
+import { workvideo1 } from "../assets";
 
 const Hero = () => {
   const [typedText, setTypedText] = useState("");
@@ -59,16 +59,7 @@ const Hero = () => {
 
     
     <div className={`relative w-full h-screen mx-auto`}>
-
-{/* <video
-  className="absolute top right-0 object-cover w-1/3 h-1/4 mt-20 rounded-lg" // Add 'rounded-lg' class here
-  autoPlay
-  loop
-  muted
->
-  <source src={workvideo1} type="video/mp4" />
-  Your browser does not support the video tag.
-</video> */}
+      
       <div
         className={`absolute inset-0 top-[100px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-4`}
       >
@@ -105,7 +96,7 @@ const Hero = () => {
     initial={{ opacity: 0 }}
     animate={{ opacity: 1 }}
     href="#work"
-    className="relative inline-block text-lg group mt-10 mb-10">
+    className="relative inline-block text-lg group mt-5 mb-10">
     <span className="relative z-10 block px-5 py-3 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white">
       <span className="absolute inset-0 w-full h-full px-5 py-3 rounded-lg bg-gray-50"></span>
       <span className="absolute left-0 w-48 h-48 -ml-2 transition-all duration-300 origin-top-right -rotate-90 -translate-x-full translate-y-12 bg-gray-900 group-hover:-rotate-180 ease"></span>
@@ -122,9 +113,15 @@ const Hero = () => {
 
         </motion.div>
       </div>
-
-        <ComputersCanvas />
-       
+     <video
+        className="hidden sm:block absolute top right-0 object-cover w-1/3 h-1/4 mt-20 rounded-lg" // Hide on small screens, show on medium and larger screens
+        autoPlay
+        loop
+        muted
+      >
+        <source src={workvideo1} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
         <Sidebar />
         
     </div>
