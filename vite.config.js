@@ -5,6 +5,6 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   assetsInclude: ['**/*.mp4'],
   plugins: [react()],
-  base: "/",
+  base: "/portfolio-jerry",
   build: { chunkSizeWarningLimit: 1600, }
 })
